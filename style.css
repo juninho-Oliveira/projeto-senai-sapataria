@@ -4,8 +4,9 @@
 }
 @font-face {
     font-family: 'font-titulo-bold';
-    src: url(assets/fontes/titiliumweb/TitilliumWeb-Bold.ttf);
+    src: url(./assets/fontes/inter/static/TitilliumWeb-Bold.ttf);
 }
+
 
 /* reset da pagina  */
 *{
@@ -252,7 +253,7 @@ footer {
 
 /*definir estilo dos titulos*/
 article h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: font-titulo-bold;
     font-size: 35px;
 }
@@ -269,6 +270,18 @@ article h1 {
     text-align: center;
     font-family: font-paragrafo-bold;
     font-size: 13px;
+    
+}
+
+.box-02 {
+    width: 188px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: font-paragrafo-bold;
+    font-size: 13px;
+  
 }
 /*realizando espaçamentos dentro do box-01 */
 .midia-box-footer{
@@ -279,15 +292,22 @@ article h1 {
 }
 
 .box-02 ul {
+    margin-top: 10px;
     height: 100px;
     font-family: font-paragrafo-bold;
     font-size: 15px;
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content: space-evenly;
     flex-direction: column;
     list-style-type: none;
+    bottom: 100px;
+
 } 
 
+.box-02 h1 {
+    margin-top: -70px;
+   
+}
 .box-02 li a {
     color: white;
     text-decoration: none;
@@ -296,6 +316,17 @@ article h1 {
 .box-02 li a:hover {
     transition: all 0.05s;
     color: black;
+}
+
+.box-03 {
+    width: 500px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: font-paragrafo-bold;
+    font-size: 13px;
+ 
 }
 
 .box-03 p {
@@ -313,12 +344,31 @@ article h1 {
     margin-top: 10px;
 }
 
+
+
 .input-gradient {
-    height: 40px;
-    width: 100%;
+    height: 41px;
+    width: 143px;
     border-radius: 8px;
     background-image: linear-gradient(90deg, #BAC 0%, #D9D9D9 100%);
+    border: 1px solid white;
     
+}
+
+.box-04 {
+    width: 188px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box-04 h1 {
+    margin-top: -70px;
+   
 }
 
 .box-04 .input-gradient input{
@@ -339,13 +389,16 @@ article h1 {
 }
 
 .box-04 button {
-    height: 40px;
-    width: 144px;
+    height: 41px;
+    width: 143px;
     background: #F5B945;
     font-family: font-titulo-bold;
     font-size: 20px;
     border-radius: 8px;
     color: black;
+    margin-top: 30px;
+    border: 1px solid black;
+    
 }
 
 .footer-bottom  {
@@ -364,3 +417,4 @@ article h1 {
     font-family: font-paragrafo-bold;
     align-self: center;
 }
+
