@@ -8,6 +8,7 @@
 }
 
 
+
 /* reset da pagina  */
 *{
     margin: 0;
@@ -50,7 +51,7 @@ header{
     font-family: font-paragrafo-bold;
     font-size: 20px;
     letter-spacing: 1px;     /*realiza o espaçamento interno dos links*/
-
+    
 }
 .links-header .nav-links a:hover{ /* efeito de quando passa o mause sobre os links o mesmo muda de cor para preto*/
     color: black;
