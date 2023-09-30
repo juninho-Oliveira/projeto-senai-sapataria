@@ -37,5 +37,28 @@ main {
 
 .titulo-forms p {
     font-family: font-paragrafo-bold;
+}
 
+.contorno-form {
+    height: 60vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  font-paragrafo-bold;
+    padding-left: 5px;
+    border: 2px solid purple;
+    border-radius: 8px;
+}
+
+.form-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.info-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
 }
