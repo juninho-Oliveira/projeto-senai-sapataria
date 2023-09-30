@@ -37,7 +37,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 /* remover a estilização que vem por padrao nos links da ul li  */
 .links-header ul li{
@@ -50,7 +49,8 @@ header{
     color: white;
     font-family: font-paragrafo-bold;
     font-size: 20px;
-    letter-spacing: 1px;     /*realiza o espaçamento interno dos links*/
+    letter-spacing: 1px; /*realiza o espaçamento interno dos links*/
+    
     
 }
 .links-header .nav-links a:hover{ /* efeito de quando passa o mause sobre os links o mesmo muda de cor para preto*/
@@ -58,9 +58,10 @@ header{
     transition: 0.2s; /* tempo para realizar mudança de cor*/
 }
 .nav-links{  /*realiza oespaçamento dos links e deixa os mesmos na horizontal*/
-    width: 350px;
+    width: 400px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-right: 20px;
     
 }
 .input-search input{  /* realiza a estilização do input-search dentro do header declarando as fontes, bordas, largura e altura*/

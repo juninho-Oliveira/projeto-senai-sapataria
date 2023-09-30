@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'font-paragrafo-bold';
+    src: url(assets/fontes/inter/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'font-titulo-bold';
+    src: url(./assets/fontes/inter/static/TitilliumWeb-Bold.ttf);
+}
+
+/**/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #fffafa;
+    height: 90vh;
+    
+}
+
+.titulo-forms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.titulo-forms h1 {
+    font-family: font-titulo-bold;
+    font-weight: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.titulo-forms p {
+    font-family: font-paragrafo-bold;
+
+}
